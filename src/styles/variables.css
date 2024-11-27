@@ -1,0 +1,46 @@
+:root {
+  --primary-color: #0056b3; /* Azul primario para enlaces y botones */
+  --secondary-color: #f0f0f0; /* Gris suave para fondos claros */
+  --text-color: #333333; /* Gris oscuro para textos */
+  --text-color: #333333; /* Gris oscuro */
+  --text-main: #333333; /*--background-color: #ffffff; /* Blanco para fondos */
+  
+  --color-fondo-turquesa: #00796b; /* Turquesa para la barra de navegación */
+  --color-fondo-gris: #D3D3D3; /* Gris claro para fondos secundarios */
+  --color-subtitulos: #076c58; /* Verde oscuro para subtítulos o textos secundarios */
+  --color-input: #E0E0E0; /* Gris claro para campos de entrada */
+  
+  --color-hover: #FF6F61; /* Naranja cálido para hover */
+  --color-active: #FF8A65; /* Naranja más suave para el estado activo de los enlaces */
+  --color-button: #FFC107; /* Amarillo para botones destacados */
+  --color-button-hover: #FFB300; /* Amarillo más oscuro para hover */
+  
+  --font-family: 'Roboto', sans-serif;
+  --font-size-base: 16px;
+  --font-size-heading: 24px;
+  --font-size-subheading: 18px;
+  --font-size-small: 14px;
+
+  --padding-small: 8px;
+  --padding-medium: 16px;
+  --padding-large: 24px;
+}
+
+  /*#FF6F61 
+  #FF8C00
+  #FFC107
+
+  #004F4A
+  #7ACCC8
+
+   #007C7C o #2D7A7A
+   #8BC34A o #76D7C
+   #FFD700 o #C6A700
+
+   #004F4A (Verde Turquesa Oscuro)
+#FF6F61 (Coral)
+#FFC107 (Amarillo Mostaza)
+#D3D3D3 (Gris Claro)
+#FFFFFF (Blanco)
+
+*/

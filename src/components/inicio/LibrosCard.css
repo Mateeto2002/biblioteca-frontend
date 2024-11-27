@@ -1,0 +1,58 @@
+
+.libro-card {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.libro-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+.libro-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #f4f4f4;
+}
+
+
+.libro-details {
+    padding: 15px;
+    text-align: center;
+}
+
+.libro-details h3 {
+    font-size: 18px;
+    color: var(--color-subtitulos);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.libro-details p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.libro-details p strong {
+    font-weight: 600;
+    color: var(--color-subtitulos);
+}
+
+/* Estilos para las categorías */
+.libro-details p span {
+    color: #777;
+}
+
+/* Estilo del hover en los detalles */
+.libro-details:hover h3 {
+    color: var(--primary-color);
+}

@@ -1,0 +1,28 @@
+
+
+.fondo_home{
+    background: #333333;
+    height: 100%;
+    min-height: 100vh;
+
+}
+
+.main_content_home{
+
+    background: #f4f4f4;
+    height: 100%;
+    width: 79%;
+    min-width: 1050px;
+    margin: auto;
+    
+    
+
+}
+
+.catalogo_libros_home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+}
