@@ -7,7 +7,7 @@ const obtenerUsuarios = () => {
 
 // Crear un nuevo director
 const crearUsuario = (data) => {
-    return axiosInstance.post('/register', data);
+    return axiosInstance.post('/usuario/register', data);
 };
 
 

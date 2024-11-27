@@ -3,7 +3,7 @@ import { axiosInstance } from  '../../helpers/api.config';
 
 const login_app = async (email, password) => {
     try {
-        const response = await axiosInstance.post(`/login`, { email, password });
+        const response = await axiosInstance.post(`/usuario/login`, { email, password });
 
         const token = response.data.token;
 
