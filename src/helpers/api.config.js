@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const axiosInstance = axios.create(
     {
-        baseURL: 'https://biblioteca-backend-6gs1.onrender.com'
+        baseURL: 'https://biblioteca-back-5wg4.onrender.com'
     }
 ) 
 
