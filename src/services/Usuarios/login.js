@@ -14,7 +14,7 @@ const login_app = async (email, password) => {
         return response.data;
         
     } catch (error) {
-        throw error.response?.data || "Error al iniciar sesión"; // Propaga el mensaje de error
+        throw error.response?.data || "Error al iniciar sesión"; 
     }
 };
 

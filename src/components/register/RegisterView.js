@@ -39,7 +39,7 @@ export const RegisterView = () => {
         if (selectedTipo === "profesor" || selectedTipo === "estudiante") {
             setMostrarModal(true);
         } else {
-            setMostrarModal(false);  // Asegúrate de cerrar el modal si no es una opción válida
+            setMostrarModal(false);  
         }
 
     }
@@ -70,15 +70,15 @@ export const RegisterView = () => {
 
             const { data } = await crearUsuario(usuario);
 
-            Swal.close(); // Cerrar indicador de carga
+            Swal.close();
 
             Swal.fire({
                 icon: "success",
                 title: "¡Éxito!",
-                text: "Productora creada correctamente."
+                text: "Usuario creado correctamente."
             });
 
-            // Limpiar el formulario después del envío
+            
             setValoresForm({
                 nombre: "",
                 apellido: "",
@@ -87,9 +87,9 @@ export const RegisterView = () => {
             });
 
         } catch (error) {
-            console.error("Error al crear productora:", error);
+            console.error("Error al crear:", error);
 
-            Swal.close(); // Cerrar indicador de carga
+            Swal.close(); 
 
             Swal.fire({
                 icon: "error",
@@ -108,13 +108,13 @@ export const RegisterView = () => {
         };
 
         const handleSave = () => {
-            onSave(formData); // Guarda los datos adicionales en el estado
-            onClose(); // Cierra el modal
+            onSave(formData); 
+            onClose(); 
         };
 
         return (
-            <div className="modal">
-                <div className="modal-content">
+            <div className="modal_register">
+                <div className="modal-content_register">
                     <h2 className="titulo_modal">{`Datos Adicionales para ${tipoUsuario}`}</h2>
 
                     {tipoUsuario === "estudiante" && (
@@ -150,8 +150,8 @@ export const RegisterView = () => {
                         </>
                     )}
 
-                    <button className="boton2" onClick={handleSave}>Guardar</button>
-                    <button className="boton2" onClick={onClose}>Cerrar</button>
+                    <button className="boton21" onClick={handleSave}>Guardar</button>
+                    <button className="boton21" onClick={onClose}>Cerrar</button>
                 </div>
             </div>
         );

@@ -1,0 +1,67 @@
+
+.main_content_ld{
+    display: flex;
+    height: 100vh;
+    background-color: var(--secondary-color);
+    width: 79%;
+    margin: auto;
+    
+}
+.contenedor_imagen_ld{
+    flex: 1;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 35px;
+
+
+
+}
+
+.contenedor_info_ld{
+    margin-top: 75px;
+
+    flex: 2;
+}
+
+.imagen_ld{
+    
+    height: 100%;
+    width: auto;
+}
+
+.text_ld{
+    margin: 25px 0px;
+}
+
+.info_extra_ld{
+    display: flex;
+    
+}
+.info_extra_ld p{
+    margin-left: 10px;
+}
+
+.container_boton{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton_prestarLibro{
+    background-color: var(--color-subtitulos);
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    margin: 40px 0px;
+    border: 1px solid var(--color-subtitulos);
+    border-radius: 7px;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+    
+}

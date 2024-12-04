@@ -1,0 +1,162 @@
+.titulo_admin{
+    font-size: 20px;
+    color: #004F4A;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.formulario_admin {
+    width: 1100px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.form_admin-item {
+    display: flex;
+}
+
+
+.form_admin {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.label_admin {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333333;
+    width: 200px;
+}
+
+.form_admin input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    background-color: #ffffff;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+}
+
+.form_admin input:focus {
+    border-color: #096b64;
+    box-shadow: 0 0 5px rgba(9, 107, 100, 0.5);
+}
+
+.boton_admin {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: var(--color-fondo-turquesa);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.info_extra_admin{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+.icon_tabla{
+    width: 25px;
+
+}
+
+.tablas_general {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    text-align: left;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tablas_general thead {
+    background-color: var(--color-fondo-turquesa);
+    color: #ffffff;
+}
+
+.tablas_general th, .tablas_general td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tablas_general tr:hover {
+    background-color: #e8f6f5; /* Color al pasar el cursor por encima de la fila */
+}
+
+.tablas_general th {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.tablas_general td {
+    font-size: 0.95rem;
+    color: #333333;
+}
+
+.icon_tabla2 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_tabla2 button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.icon_tabla2 button:hover {
+    background-color: #d9d9d9;
+}
+
+.icon_tabla {
+    width: 24px;
+    height: 24px;
+    color: #004F4A;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icon_tabla:hover {
+    transform: scale(1.1);
+    color: #096b64;
+}
+.ejemplares_admin{
+    display: flex;
+}
+.input_tabla{
+    width: 60px;
+}

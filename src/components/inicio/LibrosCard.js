@@ -3,9 +3,9 @@ import './LibrosCard.css'
 
 
 
-const LibroCard = ({ libro }) => {
+const LibroCard = ({ libro, onClick}) => {
     return (
-        <div className="libro-card">
+        <div className="libro-card" onClick={onClick}>
             <img src={libro.img} alt={libro.titulo} className="libro-img" />
             <div className="libro-details">
                 <h3>{libro.titulo}</h3>

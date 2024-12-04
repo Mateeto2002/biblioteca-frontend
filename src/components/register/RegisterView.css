@@ -134,48 +134,110 @@ input{
     font-style: bold;
     margin-top: 20px;
 }
-.boton2{
-    background-color: var(--color-gris-oscuro);
-    width: 130px;
-    height: 40px;
-    border: 1px solid white;
-    border-radius: 5px;
-    color: white;
-    font-size: 20px;
-    font-style: bold;
-    margin-top: 20px;
-}
-
-.modal {
+/* Estilo general para el modal */
+.modal_register {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1000;
+    z-index: 1000; /* Asegura que el modal esté sobre otros elementos */
 }
 
-.modal-content {
+.modal-content_register {
     background-color: white;
     padding: 20px;
-    border-radius: 8px;
-    width: 300px;
-    text-align: center;
-}
-.contenedor_inputM{
-    display: flex;
-    justify-content: space-between;
-}
-.inputModal{
-    margin-bottom: 20px;
-    
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.titulo_modal{
-    margin-bottom: 35px;
+/* Estilo del título del modal */
+.modal_register .titulo_modal {
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--color-subtitulos); /* Usando el color definido previamente */
+}
+
+/* Estilo de los contenedores de los inputs */
+.modal_register .contenedor_inputM {
+    margin-bottom: 15px;
+}
+
+/* Estilo de las etiquetas dentro del modal */
+.modal_register label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: var(--color-gris-oscuro); /* Color gris oscuro para las etiquetas */
+}
+
+/* Estilo de los inputs dentro del modal */
+.modal_register .inputModal {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: var(--color-input); /* Color de fondo para los inputs */
+    font-size: 1em;
+    color: #333;
+}
+
+.modal_register .inputModal:focus {
+    border-color: var(--color-subtitulos);
+    outline: none;
+    background-color: white;
+}
+
+
+.modal_register .botonModal {
+    background-color: var(--color-subtitulos);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.modal_register .botonModal:hover {
+    background-color: #064e4a;
+}
+
+/* Estilo para los botones dentro del modal */
+.modal_register .boton21 {
+    background-color: var(--color-subtitulos); /* Usando el color de subtítulos que definiste */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 48%; /* Para que los botones queden lado a lado */
+    margin: 5px 1%;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilo al pasar el mouse por encima de los botones */
+.modal_register .boton21:hover {
+    background-color: #064e4a; /* Un tono más oscuro al pasar el mouse */
+}
+
+/* Estilo para el botón de "Cerrar" */
+.modal_register .boton21:nth-child(2) {
+    background-color: #D3D3D3; /* Color de fondo gris para el botón de cerrar */
+    color: #333333; /* Color de texto gris oscuro */
+}
+
+/* Estilo al pasar el mouse por encima del botón de "Cerrar" */
+.modal_register .boton21:nth-child(2):hover {
+    background-color: #a9a9a9; 
 }
 
